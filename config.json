@@ -1,0 +1,121 @@
+{
+    "name": "Leonardo",
+    "github": "LZCT",
+    "projects": [
+      {
+        "name": "Youtube Profile",
+        "url": "https://github.com/LZCT/Youtube-Profile",
+        "thumb":"https://i.imgur.com/7wzFo6T.png",
+        "desc": "Esse projeto simula uma página similiar ao Youtube, onde você pode criar playlists e visualizar vídeos.",
+        "buildWith": ["React", "Next", "StyledComponents"]
+      },
+      {
+        "name": "Action-Object Recognition",
+        "url": "https://github.com/LZCT/Action-Object_Recognition",
+        "thumb":"https://i.imgur.com/uk22sOR.png",
+        "desc": "Action-Object Recognition apresenta duas abordagens voltadas ao reconhecimento de ações humanas e de produtos em uma loja de conveniência, além de uma base de dados com mais de 10 mil itens relacionados ao tema.",
+        "buildWith": ["Python", "Cplusplus", "Yolo"]
+      },
+      {
+        "name": "The Collector",
+        "url": "https://github.com/LZCT/TheCollector",
+        "thumb":"https://i.imgur.com/seB82UB.jpg",
+        "desc": "The Collector é um aplicativo onde você pode pesquisar por cartas Pokémon e consultar informações sobre elas.",
+        "buildWith": ["JavaScript", "HTML", "CSS", "Bootstrap"]
+      },
+      {
+        "name": "Eternum",
+        "url": "https://github.com/LZCT/Eternum",
+        "thumb":"https://i.imgur.com/JrkHkj0.png",
+        "desc": "Eternum é um jogo de plataforma 2D onde você controla Aeon, um cientista que ficou preso em diferentes eras enquanto tentava viajar no tempo para salvar o mundo de seu grande inimigo Adamastor.",
+        "buildWith": ["Unity", "Csharp"]
+      },
+      {
+        "name": "eSports Soccer Team",
+        "url": "https://github.com/LZCT/eSports-Soccer-Team",
+        "thumb":"https://i.imgur.com/Mw1eODv.jpg",
+        "desc": "Este projeto simula um site simples de um time de futebol de eSports e pretende demonstrar o uso de flexbox e recursos básicos de bootstrap.",
+        "buildWith": ["JavaScript", "HTML", "CSS", "Bootstrap"]
+      },
+      {
+        "name": "Code Challenges",
+        "url": "https://github.com/LZCT/Code-Challenges",
+        "thumb":"https://i.imgur.com/DdhsRBP.png",
+        "desc": "Code-Challenges é um repositório que contém soluções para desafios de programação de alguns sites, como: HackerRank e URI/Beecrowd.",
+        "buildWith": ["Cplusplus", "Python"]
+      }
+    ],
+    "technologies":{
+      "Cplusplus":{
+        "name": "C++",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+      },
+      "Python":{
+        "name": "Python",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+      },
+      "JavaScript":{
+        "name": "JavaScript",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      },
+      "HTML":{
+        "name": "HTML",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+      },
+      "CSS":{
+        "name": "CSS",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+      },
+      "Bootstrap":{
+        "name": "Bootstrap",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+      },
+      "Unity":{
+        "name": "Unity",
+        "logo": "https://cdn.worldvectorlogo.com/logos/unity-69.svg"
+      },
+      "Csharp":{
+        "name": "C#",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+      },
+      "React":{
+        "name": "React.js",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+      },
+      "Next":{
+        "name": "Next.js",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+      },
+      "StyledComponents":{
+        "name": "Styled-Components",
+        "logo": "https://cdn.worldvectorlogo.com/logos/styled-components-1.svg"
+      },
+      "Yolo":{
+        "name": "Darknet",
+        "logo": "https://camo.githubusercontent.com/6b3c6c1109586f5f3ddf8967fa4eaf787c7b45fe3df6d89111d6f9c7c1045769/687474703a2f2f706a7265646469652e636f6d2f6d656469612f66696c65732f6461726b6e65742d626c61636b2d736d616c6c2e706e67"
+      },
+      "npm":{
+        "name": "NPM",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+      },
+      "Node":{
+        "name": "Node.js",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      },
+      "Git":{
+        "name": "Git",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      }
+    }
+}
+
+
+          
+
+
+          
+          
+
+
+          
+          
