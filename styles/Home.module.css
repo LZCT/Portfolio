@@ -7,74 +7,6 @@
   
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 1rem;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-/*Footer Logo*/
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-.title {
-  margin: 4rem 0;
-  color: #fff;
-  font-size: calc(18px + 1vw);
-  text-align: center;
-  font-family: 'Kaushan Script', cursive;
-}
-
-/*Projects Grid*/
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 600px;
-}
-
-/* Technologies and Knowledge / */
-.technologies{
-  display: flex;
-  flex-wrap:nowrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  height: 100vh;
-  background-image: url("/gradientBG.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.technologiesGrid{
-  border: 0px;
-  
-  
-}
-
-
-.techIcon{
-  width: 75px;
-  height: 75px;
-  padding: 5px;
-}
-
 /* Intro Page */
 .intro{
   display: flex;
@@ -99,7 +31,6 @@
   color: #fff;
 }
 
-
 /* Profile Photo */
 .profileImage{
   max-width: 50%;
@@ -113,7 +44,96 @@
   justify-content: center;
 }
 
-/* Flipbox Settings */
+/* technology icons */
+.techIcon{
+  width: 100%;
+  height: 100%;
+  max-width: 75px;
+  max-height: 75px;
+  padding: 5px;
+}
+
+
+/* PROFILE */
+
+/* Technologies and Knowledge / */
+.technologies{
+  display: flex;
+  flex-wrap:nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/gradientBG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Profile */
+.profile{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1.5rem;
+  color: #000;
+  
+}
+
+.profileElement{
+  border-radius: 0 40px 0 40px;
+  background-color: #fff;
+  border: 3px solid #9d203c;
+  box-shadow: 10px 10px 5px black;
+  min-width: 150px;
+  max-width: 700px;
+  padding:10px;
+  
+}
+
+.title {
+  margin: 4rem 0;
+  color: #fff;
+  font-size: calc(24px + 1vw);
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+}
+
+/*Projects Grid*/
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+
+
+/* Change height if is a small device */
+@media screen and (max-width: 500px) {
+  .technologies{
+    height: 100%;
+  }
+}
+
+/* Change height if is a small device */
+@media screen and (max-height: 600px) {
+  .intro, .technologies{
+    height: 100%;
+  }
+  .intro{
+    margin-top: 52px;
+  }
+}
+
+
+/* ------------------------------Flipbox Settings ------------------------------*/
 .flipBox {
   background-color: transparent;
   perspective: 1000px;
@@ -134,4 +154,13 @@
   transform: rotateY(360deg);
 }
 
-
+/* ------------------------------ FOOTER ------------------------------ */
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 0.5rem;
+  background-color: #141213;
+  border-top: 0px solid #9d203c;
+  justify-content: center;
+  align-items: center;
+}

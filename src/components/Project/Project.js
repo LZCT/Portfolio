@@ -4,30 +4,41 @@ import config from '/config.json';
 const Project = (props) => {
     const icons = config.technologies;
     
-
     return(
-        
-          <a href={props.url} className={styles.card} key={props.name}>
-            
+          
+           <div className={styles.card} key={props.name}>
+            {/* Project Info */}
             <h2>{props.name}</h2>
             <p>{props.desc}</p>
             <br/>
 
+            {/* Project Screenshot */}
             <div className={styles.imageContainer}>
                 <img src={props.img} alt="" className={styles.image} />
             </div>
 
+            {/* Used Technologies */}
             <p><b>Principais Tecnologias Usadas</b></p>
 
             <div className={styles.usedTechnologies}>
                 {props.buildWith.map((technology) => {
                     return(
-                        <img src={icons[technology].logo} alt={icons[technology].name} title={icons[technology].name}  className='techIcon' /> 
+                        <img src={icons[technology].logo} alt={icons[technology].name} title={icons[technology].name} key={icons[technology].name} className='techIcon' /> 
                     )
                 })}
             </div>
 
-          </a>
+            <br/>
+            {/* Code and Preview links */}
+            <a href={props.code}  key={props.code}> <button className={styles.btn}>Repositório</button></a>
+            {props.url ? (<a href={props.url} key={props.name}> <button className={styles.btn}>Preview</button></a>) : false}
+
+            
+           
+            </div> 
+            
+
+          
     )
 }
 

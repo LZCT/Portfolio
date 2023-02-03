@@ -4,46 +4,61 @@
     "projects": [
       {
         "name": "Youtube Profile",
-        "url": "https://github.com/LZCT/Youtube-Profile",
+        "code": "https://github.com/LZCT/Youtube-Profile",
+        "url": "https://youtube-profile.vercel.app/",
         "thumb":"https://i.imgur.com/7wzFo6T.png",
         "desc": "Esse projeto simula uma página similiar ao Youtube, onde você pode criar playlists e visualizar vídeos.",
         "buildWith": ["React", "Next", "StyledComponents"]
       },
       {
         "name": "Action-Object Recognition",
-        "url": "https://github.com/LZCT/Action-Object_Recognition",
+        "code": "https://github.com/LZCT/Action-Object_Recognition",
+        "url": "",
         "thumb":"https://i.imgur.com/uk22sOR.png",
         "desc": "Action-Object Recognition apresenta duas abordagens voltadas ao reconhecimento de ações humanas e de produtos em uma loja de conveniência, além de uma base de dados com mais de 10 mil itens relacionados ao tema.",
         "buildWith": ["Python", "Cplusplus", "Yolo"]
       },
       {
         "name": "The Collector",
-        "url": "https://github.com/LZCT/TheCollector",
+        "code": "https://github.com/LZCT/TheCollector",
+        "url": "https://ptcg-collector.vercel.app/",
         "thumb":"https://i.imgur.com/seB82UB.jpg",
         "desc": "The Collector é um aplicativo onde você pode pesquisar por cartas Pokémon e consultar informações sobre elas.",
         "buildWith": ["JavaScript", "HTML", "CSS", "Bootstrap"]
       },
       {
         "name": "Eternum",
-        "url": "https://github.com/LZCT/Eternum",
+        "code": "https://github.com/LZCT/Eternum",
+        "url": "",
         "thumb":"https://i.imgur.com/JrkHkj0.png",
         "desc": "Eternum é um jogo de plataforma 2D onde você controla Aeon, um cientista que ficou preso em diferentes eras enquanto tentava viajar no tempo para salvar o mundo de seu grande inimigo Adamastor.",
         "buildWith": ["Unity", "Csharp"]
       },
       {
         "name": "eSports Soccer Team",
-        "url": "https://github.com/LZCT/eSports-Soccer-Team",
+        "code": "https://github.com/LZCT/eSports-Soccer-Team",
+        "url": "https://lzct.github.io/eSports-Soccer-Team/",
         "thumb":"https://i.imgur.com/Mw1eODv.jpg",
         "desc": "Este projeto simula um site simples de um time de futebol de eSports e pretende demonstrar o uso de flexbox e recursos básicos de bootstrap.",
         "buildWith": ["JavaScript", "HTML", "CSS", "Bootstrap"]
       },
       {
         "name": "Code Challenges",
-        "url": "https://github.com/LZCT/Code-Challenges",
+        "code": "https://github.com/LZCT/Code-Challenges",
+        "url": "",
         "thumb":"https://i.imgur.com/DdhsRBP.png",
-        "desc": "Code-Challenges é um repositório que contém soluções para desafios de programação de alguns sites, como: HackerRank e URI/Beecrowd.",
+        "desc": "Code-Challenges é um repositório que contém soluções para desafios de programação de sites, como: HackerRank e URI/Beecrowd.",
         "buildWith": ["Cplusplus", "Python"]
+      },
+      {
+        "name": "Portfólio",
+        "code": "https://github.com/LZCT/Portfolio",
+        "url": "",
+        "thumb":"https://i.imgur.com/DeD1cG5.jpg",
+        "desc": "Esse é o repositório do portfólio que você está visualizando nesse momento!",
+        "buildWith": ["React", "Next", "CSS"]
       }
+
     ],
     "technologies":{
       "Cplusplus":{
