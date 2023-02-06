@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
+This repository stores my portfolio website.
+
+## Table of contents
+
+- [Portfolio](#portfolio)
+  - [Table of contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Run](#run)
+  - [Built With](#built-with)
+  - [Screenshots](#screenshots)
+    - [Home](#home)
+    - [About Me](#about-me)
+    - [Projects](#projects)
+
+
+
+## Prerequisites
+
+This project requires NodeJS (version 16 or later) and NPM.
+[Node](http://nodejs.org/) and [NPM](https://npmjs.org/) are really easy to install.
+To make sure you have them available on your machine,
+try running the following command.
+
+```sh
+$ npm -v && node -v
+8.19.2
+v16.17.0
+```
 
 ## Getting Started
 
-First, run the development server:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
+If you just want to view the project, you can access this website <a href="https://leocastabelli.vercel.app/">here</a>.
+
+## Installation
+
+**BEFORE YOU INSTALL:** please read the [prerequisites](#prerequisites)
+
+Start with cloning this repo on your local machine:
+
+```sh
+$ git clone https://github.com/LZCT/Portfolio
+$ cd youtube-profile
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To install, run:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+$ npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Run
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+$ npm run dev
+```
 
-## Learn More
+## Built With
 
-To learn more about Next.js, take a look at the following resources:
+* <a href="https://reactjs.org/">React </a>
+* <a href="https://nextjs.org/">Next.js </a>
+* CSS
+* <a href="https://vercel.com/">Vercel</a> (Deploy)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Home
+<img src="https://i.imgur.com/DeD1cG5.jpg">
 
-## Deploy on Vercel
+### About Me
+<img src="https://i.imgur.com/fMeOmmx.png">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Projects
+<img src="https://i.imgur.com/HGHVEzs.png">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+

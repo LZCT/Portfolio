@@ -30,11 +30,9 @@ const Project = (props) => {
 
             <br/>
             {/* Code and Preview links */}
-            <a href={props.code}  key={props.code}> <button className={styles.btn}>Repositório</button></a>
+            {props.code ? (<a href={props.code}  key={props.code}> <button className={styles.btn}>Repositório</button></a>) : false}
             {props.url ? (<a href={props.url} key={props.name}> <button className={styles.btn}>Preview</button></a>) : false}
 
-            
-           
             </div> 
             
 

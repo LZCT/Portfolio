@@ -48,14 +48,14 @@ export default function Home() {
 
             </div>
 
-            <Arrow scrollTo={"#technologies"} />
+            <Arrow scrollTo={"#aboutMe"} />
           </div>
 
         </div>
 
 
         {/*---------------------------------- About Me ----------------------------------*/}
-        <div className={styles.technologies} id="technologies">
+        <div className={styles.aboutMe} id="aboutMe">
           <div>
             <p className={styles.title}>Sobre Mim</p>
 
@@ -92,7 +92,7 @@ export default function Home() {
 
         {/*---------------------------------- Projects ----------------------------------*/}
 
-        <div className={styles.grid} id="projects">
+        <div className={styles.projects} id="projects">
           <p className={styles.title}>
             Projetos
           </p>
