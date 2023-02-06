@@ -44,7 +44,7 @@ Start with cloning this repo on your local machine:
 
 ```sh
 $ git clone https://github.com/LZCT/Portfolio
-$ cd youtube-profile
+$ cd Portfolio
 ```
 
 To install, run:
