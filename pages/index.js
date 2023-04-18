@@ -108,7 +108,7 @@ export default function Home() {
       {/*---------------------------------- Footer ----------------------------------*/}
       <footer className={styles.footer}>
         <a href="https://github.com/LZCT/" target="_blank">
-          <Image src="/LZCT_White.png" alt="LZCT Logo" width={40} height={40} />
+          <Image src="/LZCT_White.webp" alt="LZCT Logo" width={40} height={40} />
         </a>
       </footer>
     </>

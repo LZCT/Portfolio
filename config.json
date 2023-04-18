@@ -13,7 +13,7 @@
       {
         "name": "Action-Object Recognition",
         "code": "https://github.com/LZCT/Action-Object_Recognition",
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=XZGT8y4c5TI&ab_channel=LZCT",
         "thumb":"https://i.imgur.com/uk22sOR.png",
         "desc": "Action-Object Recognition apresenta duas abordagens voltadas ao reconhecimento de ações humanas e de produtos em uma loja de conveniência, além de uma base de dados com mais de 10 mil itens relacionados ao tema.",
         "buildWith": ["Python", "Cplusplus", "Yolo"]
@@ -29,7 +29,7 @@
       {
         "name": "Eternum",
         "code": "https://github.com/LZCT/Eternum",
-        "url": "",
+        "url": "https://youtu.be/pgeuBe8mVeM",
         "thumb":"https://i.imgur.com/JrkHkj0.png",
         "desc": "Eternum é um jogo de plataforma 2D onde você controla Aeon, um cientista que ficou preso em diferentes eras enquanto tentava viajar no tempo para salvar o mundo de seu grande inimigo Adamastor.",
         "buildWith": ["Unity", "Csharp"]
