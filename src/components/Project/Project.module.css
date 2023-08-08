@@ -16,10 +16,10 @@
 }
 
 /* Drop shadow effect on card hover */
-.card:hover{
+/* .card:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-}
+} */
 /* Project screenshot */
 .imageContainer .image{
     width: 100%;

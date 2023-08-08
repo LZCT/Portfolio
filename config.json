@@ -24,7 +24,7 @@
         "url": "https://ptcg-collector.vercel.app/",
         "thumb":"https://i.imgur.com/seB82UB.jpg",
         "desc": "The Collector é um aplicativo onde você pode pesquisar por cartas Pokémon e consultar informações sobre elas.",
-        "buildWith": ["JavaScript", "HTML", "CSS", "Bootstrap"]
+        "buildWith": ["HTML", "CSS","JavaScript", "Bootstrap"]
       },
       {
         "name": "Eternum",
@@ -40,7 +40,7 @@
         "url": "https://lzct.github.io/eSports-Soccer-Team/",
         "thumb":"https://i.imgur.com/Mw1eODv.jpg",
         "desc": "Este projeto simula um site simples de um time de futebol de eSports e pretende demonstrar o uso de flexbox e recursos básicos de bootstrap.",
-        "buildWith": ["JavaScript", "HTML", "CSS", "Bootstrap"]
+        "buildWith": ["HTML", "CSS", "JavaScript", "Bootstrap"]
       },
       {
         "name": "Code Challenges",
@@ -49,6 +49,14 @@
         "thumb":"https://i.imgur.com/DdhsRBP.png",
         "desc": "Code-Challenges é um repositório que contém soluções para desafios de programação de sites, como: HackerRank e URI/Beecrowd.",
         "buildWith": ["Cplusplus", "Python"]
+      },
+      {
+        "name": "Super Pro",
+        "code": "",
+        "url": "",
+        "thumb":"/img/SuperPro/SuperProHome.webp",
+        "desc": "Criado para a Brazilian Sports League, o Super Pro é um jogo onde você cria um time de futebol e contrata jogadores para disputar partidas com times também criados por outros usuários.",
+        "buildWith": ["HTML", "CSS","JavaScript","Python"]
       },
       {
         "name": "Portfólio",
