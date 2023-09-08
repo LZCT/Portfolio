@@ -32,6 +32,7 @@ const Project = (props) => {
             {/* Code and Preview links */}
             {props.code ? (<a href={props.code}  key={props.code}> <button className={styles.btn}>Repositório</button></a>) : false}
             {props.url ? (<a href={props.url} key={props.name}> <button className={styles.btn}>Preview</button></a>) : false}
+            {!props.url && !props.code ? (<div className={styles.flex}><div className={styles.emBreve}>Em Breve</div></div>) : false}
 
             </div> 
             

@@ -1,6 +1,7 @@
 {
     "name": "Leonardo",
     "github": "LZCT",
+    "myTechnologies": ["HTML","CSS", "TailwindCSS", "JavaScript", "Next", "StyledComponents", "Python", "Prisma", "MariaDB", "Git" ],
     "projects": [
       {
         "name": "Youtube Profile",
@@ -8,7 +9,7 @@
         "url": "https://youtube-profile.vercel.app/",
         "thumb":"https://i.imgur.com/7wzFo6T.png",
         "desc": "Esse projeto simula uma página similiar ao Youtube, onde você pode criar playlists e visualizar vídeos.",
-        "buildWith": ["React", "Next", "StyledComponents"]
+        "buildWith": ["Next", "StyledComponents"]
       },
       {
         "name": "Action-Object Recognition",
@@ -55,7 +56,15 @@
         "code": "",
         "url": "",
         "thumb":"/img/SuperPro/SuperProHome.webp",
-        "desc": "Criado para a Brazilian Sports League, o Super Pro é um jogo onde você cria um time de futebol e contrata jogadores para disputar partidas com times também criados por outros usuários.",
+        "desc": "Criado para a Brazilian Sports League, o Super Pro é um jogo onde você cria um time de futebol e contrata jogadores para disputar partidas com times criados por outros usuários.",
+        "buildWith": ["HTML", "CSS","JavaScript","Python"]
+      },
+      {
+        "name": "BSL Awards",
+        "code": "",
+        "url": "",
+        "thumb":"/img/BSLAwards/BSLAwards.webp",
+        "desc": "O BSL Awards é uma premiação com votação popular realizada anualmente pela Brazilian Sports League. O evento contempla os atletas e times que mais se destacaram ao longo da temporada.",
         "buildWith": ["HTML", "CSS","JavaScript","Python"]
       },
       {
@@ -64,7 +73,7 @@
         "url": "",
         "thumb":"https://i.imgur.com/DeD1cG5.jpg",
         "desc": "Esse é o repositório do portfólio que você está visualizando nesse momento!",
-        "buildWith": ["React", "Next", "CSS"]
+        "buildWith": ["Next", "CSS"]
       }
 
     ],
@@ -101,10 +110,6 @@
         "name": "C#",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
       },
-      "React":{
-        "name": "React.js",
-        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-      },
       "Next":{
         "name": "Next.js",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
@@ -128,6 +133,19 @@
       "Git":{
         "name": "Git",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      },
+      "TailwindCSS":{
+        "name": "Tailwind CSS",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+      }
+      ,
+      "Prisma":{
+        "name": "Prisma",
+        "logo": "/img/DevIcons/Prisma.svg"
+      },
+      "MariaDB":{
+        "name": "MariaDB",
+        "logo": "/img/DevIcons/MariaDB.svg"
       }
     }
 }

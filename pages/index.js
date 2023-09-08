@@ -7,13 +7,14 @@ import Menu from '../src/components/Menu/Menu'
 import config from '../config.json';
 
 export default function Home() {
-  const technologies = Object.keys(config.technologies);
-
+  // const technologies = Object.keys(config.technologies);
+  const myTechnologies = config.myTechnologies
+  const icons = config.technologies;
 
   return (
     <>
       <Head>
-        <title>Portfolio | Leonardo Castabelli</title>
+        <title>Portfólio | Leonardo Castabelli</title>
       </Head>
 
       <Menu />
@@ -76,13 +77,19 @@ export default function Home() {
                 Se você acha que devemos criar algo juntos, sinta-se à vontade para entrar em contato comigo através do meu <a href="https://www.linkedin.com/in/leocastabelli/">LinkedIn</a>!
                 </p>
 
-                <h2>Conhecimentos</h2>
-                {technologies.map((technology) => {
+                <h2>Principais Conhecimentos</h2>
+                {myTechnologies.map((technology) => {
+                    return(
+                        <img src={icons[technology].logo} alt={icons[technology].name} title={icons[technology].name} key={icons[technology].name} className={styles.techIcon} /> 
+                    )
+                })}
+                
+                {/* {technologies.map((technology) => {
                   const tech = config.technologies[technology];
                   return (
                     <img src={tech.logo} alt={tech.name} title={tech.name} className={styles.techIcon} key={tech.name} />
                   )
-                })}
+                })} */}
               </div>
 
             </div>
